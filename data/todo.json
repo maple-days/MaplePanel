@@ -1,0 +1,175 @@
+{
+  "version": 2,
+  "updated": "2026-11-23T16:19:02",
+  "sections": [
+    "下一步",
+    "内容与编排",
+    "模型与美术",
+    "发布",
+    "技术债",
+    "多人"
+  ],
+  "items": [
+    {
+      "id": "t1",
+      "text": "**拔刀剑 JEI / HEI 合成表错乱修复**（下一个 mod）",
+      "section": "下一步",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t2",
+      "text": "**赤霄 tooltip**：写一条配得上\"老祖的剑\"的霸气描述（内容待拟）",
+      "section": "内容与编排",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t3",
+      "text": "**每日任务实现**：策划已完成（`MFn's Daily Task 与 Currency 策划 v0.1.md`），v0.1 待开发",
+      "section": "内容与编排",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t4",
+      "text": "**枫币 mod**：与每日任务配套；定位是\"今天也好好过了\"的凭证，不是货币",
+      "section": "内容与编排",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t5",
+      "text": "**FTB Quests 里程碑章节**：先用游戏内编辑模式做「日常」样本，验证手感",
+      "section": "内容与编排",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t6",
+      "text": "**玩法勘察**：按 `玩法勘察卡.md` 逐 mod 实玩并记录，产出日常任务素材库",
+      "section": "内容与编排",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t7",
+      "text": "**模型替换**：外包模型交付后替换 `chixiao.obj` + 自绘 `chixiao.png`（只动发布资源，实验在工作区）",
+      "section": "模型与美术",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t8",
+      "text": "**mod ICON**：模型定稿后用 Blender 正交烤制赤零视图，产出 128×128 透明 PNG",
+      "section": "模型与美术",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t9",
+      "text": "**上传平台**：Sleeptime / MFnAbout / BladeIcons 尚未上传 CurseForge / Modrinth（需手动）",
+      "section": "发布",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t10",
+      "text": "**`mods\\1.12.2\\` 双份 Scala 库**：`scala-library-3.8.4` + `3.10.0` 并存，`scala-parser-combinators` 也有两份。",
+      "section": "技术债",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t11",
+      "text": "**`celeritasdynamiclights-1.2.11`**：Celeritas 专用，当前用 Nothirium 未装 Celeritas，属\"随时可能引爆\" → 建议删",
+      "section": "技术债",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t12",
+      "text": "**`!!!CrashAssistant 1.11.12`**：Java 25 上 `AbstractMethodError: oshi...`，且没能生成 crash report → 升级或移除",
+      "section": "技术债",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t13",
+      "text": "**`_MixinBootstrap-1.1.0.jar`**：Cleanroom 自带 Mixin，这个 Forge 时代 bootstrap 属多余，是冲突常见诱因",
+      "section": "技术债",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t14",
+      "text": "**[神秘之日本刀] mcmod.info 非法 JSON**（`credits` 写成数组）→ 元数据被忽略，依赖声明失效；文件名还带中文",
+      "section": "技术债",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t15",
+      "text": "**两个 jar 文件名违规**：`拔刀剑拟态1.12.2 0.2.jar`、`JRFTL[1.12.2]-1.1.jar` → 改 ASCII",
+      "section": "技术债",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t16",
+      "text": "**拔刀剑系已 12 个 jar**：复查刀强度分布与材料链，避免\"某把刀一出来就毕业\"",
+      "section": "技术债",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t17",
+      "text": "纯客户端 mod 清单逐一验证\"服务端缺席不报错\"",
+      "section": "多人",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t18",
+      "text": "Cleanroom 0.6.13 服务端部署方案（mods 一致性、config 固化、启动脚本）",
+      "section": "多人",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t19",
+      "text": "领地/防破坏：FTB Utilities claims 评估",
+      "section": "多人",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    },
+    {
+      "id": "t20",
+      "text": "每日任务必须**按玩家独立结算**",
+      "section": "多人",
+      "done": false,
+      "created": "2026-11-23T16:12:37",
+      "doneAt": null
+    }
+  ],
+  "archive": []
+}

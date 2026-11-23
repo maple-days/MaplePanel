@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物
+data/server.log
+data/server.pid
+data/*.bak
+*.bak
+*.bak-*
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
