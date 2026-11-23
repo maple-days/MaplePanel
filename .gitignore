@@ -12,7 +12,10 @@ data/*.bak
 *.bak
 *.bak-*
 
+# 扫描报告（运行产物，不入库）
+reports/
+
 # 编辑器
 .idea/
 .vscode/
-*.swpreports/
+*.swp
